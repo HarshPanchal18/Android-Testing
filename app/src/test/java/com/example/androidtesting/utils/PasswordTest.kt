@@ -16,12 +16,12 @@ class PasswordTest {
     @Test
     fun isBlankIsValidPassword() {
         var result = password.isValidPassword("Password")
-        assertEquals(true,result)
+        assertEquals(true, result)
 
         result = password.isValidPassword("")
-        assertEquals(false,result)
+        assertEquals(false, result)
 
         result = password.isValidPassword("Pass")
-        assertEquals(false,result)
+        assertEquals(false, result)
     }
 }

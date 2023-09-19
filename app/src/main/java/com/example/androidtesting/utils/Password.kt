@@ -10,4 +10,11 @@ class Password {
 
         return true
     }
+
+    fun isValidPassword2(password: String) = when {
+        password.isBlank() -> "Password is required field"
+        password.length < 6 -> "Length of password should be greater than 6"
+        password.length > 15 -> "Length of password should be less than 15"
+        else -> "Valid"
+    }
 }
