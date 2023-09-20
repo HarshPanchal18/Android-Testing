@@ -51,4 +51,7 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     implementation("com.google.code.gson:gson:2.10.1")
+
+    testImplementation("org.mockito:mockito-core:4.0.0")
+    testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
 }
